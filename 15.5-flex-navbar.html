@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15.5</title>
+    <style>
+        .container {
+            background: rgba(218, 216, 212, 0.199);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: grey;
+        }
+        
+        a {
+            text-decoration: none;
+            padding: 20px;
+            color: rgb(99, 99, 99);
+        }
+        
+        @media(max-width:500px) {
+            .container {
+                background: rgba(218, 216, 212, 0.199);
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                color: grey;
+            }
+            a {
+                text-decoration: none;
+                padding: 20px;
+                color: rgb(99, 99, 99);
+            }
+            .rightbar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>APPLESEED</h1>
+        </div>
+        <div class="rightbar">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">PROTFOLIO</a>
+            <a href="">CONTACT</a>
+        </div>
+    </div>
+</body>
+
+</html>
